@@ -1,0 +1,24 @@
+.parent{
+    display: flex;
+    justify-content: space-around;
+}
+.child-leftside-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+}
+.child-main > .child-main-opening{
+    display: flex;
+    justify-content: space-between;
+}
+.child-leftside-nav i{
+    height: 80px;
+    width: 80px;
+}
+.child-leftside-nav i:hover{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-color: whitesmoke;
+}

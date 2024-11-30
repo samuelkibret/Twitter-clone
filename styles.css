@@ -2,23 +2,25 @@
     display: flex;
     justify-content: space-around;
 }
+/* left side navigation part */
 .child-leftside-nav{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 100vh;
 }
-.child-main > .child-main-opening{
+.nav-left-item{
+    height: 80px;
+    width: 80px;
     display: flex;
-    justify-content: space-between;
-}
-.child-leftside-nav i{
-    height: 80px;
-    width: 80px;
-}
-.child-leftside-nav i:hover{
+    justify-content: center;
+    align-items: center;
+    color: #555;
+    text-decoration: none;
     border-radius: 50%;
-    height: 80px;
-    width: 80px;
-    background-color: whitesmoke;
 }
+.nav-left-item:hover{
+    background-color:#f0f0f0;
+}
+/* Rightside page */
+/* Center part of the page */
